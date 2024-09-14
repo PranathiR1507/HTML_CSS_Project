@@ -1,0 +1,40 @@
+.sidebar{
+    background-color: white;
+    width: 80px;
+    position: fixed;
+    left: 0;
+    top:55px;
+    bottom: 0;   
+    height: 1000px;
+    z-index: 200;
+}
+.sidehome{
+    position: absolute;
+
+}
+.sidebar-link{
+    background-color: white;
+    height: 60px;
+    margin-bottom: 1px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.sidebar-link:hover{
+    background-color: lightgrey;
+}
+.sidebar_img{
+    width: 30px;
+    height: 30px;
+}
+.sidebar-link div{
+    font-size: 10px;
+    align-items: center;
+    
+}
+.sidebar-link img{
+    margin-bottom: 10px;
+    justify-content: center;
+}
